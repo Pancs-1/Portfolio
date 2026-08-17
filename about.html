@@ -24,75 +24,176 @@
 
     <main>
 
-        <section>
-            <h1>About Pancs</h1>
+        <!-- Page Header -->
+        <section class="page-header">
+
+            <p class="eyebrow">PLAYER PROFILE // ABOUT</p>
+
+            <h1>About Me</h1>
 
             <p>
-                I'm Wannas Romel Attallah (unformally knows as pancs), a STEM student interested in game development,
-                programming, engineering, and creating things that seem interesting as ideas and then somehow become reality.
+                A little information about the person behind the projects.
             </p>
+
         </section>
 
 
-        <section>
-            <h2>What I Make</h2>
+        <!-- Character Profile -->
+        <section class="profile-card">
 
-            <h3>Game Development</h3>
-            <ul>
-                <li>Unity</li>
-                <li>C#</li>
-                <li>Game mechanics</li>
-                <li>Level design</li>
-                <li>Story-driven games</li>
-            </ul>
+            <div class="profile-image">
 
-            <h3>Engineering</h3>
-            <ul>
-                <li>Arduino</li>
-                <li>Electronics</li>
-                <li>Prototyping</li>
-                <li>STEM projects</li>
-            </ul>
+                <img
+                    class="zoomable"
+                    src="images/MePhoto2.png"
+                    alt="Me IRL"
+                >
 
-            <h3>Creative Work</h3>
-            <ul>
-                <li>3D modeling</li>
-                <li>Blender</li>
-                <li>Visual design</li>
-                <li>Worldbuilding</li>
-            </ul>
+            </div>
+
+
+            <div class="profile-info">
+
+                <p class="profile-status">
+                    STATUS: ACTIVE
+                </p>
+
+                <h2>Wannas Romel Atallah</h2>
+
+                <p>
+                    I'm a STEM student interested in game development,
+                    programming, 3D modeling, and technology.
+                </p>
+
+                <p>
+                    I like taking ideas that probably didn't need to
+                    exist and turning them into actual projects.
+                </p>
+
+            </div>
+
         </section>
 
 
-        <section>
-            <h2>How I Work</h2>
+        <!-- Interests -->
+        <section class="about-section">
 
-            <p>
-                I like figuring out how things work by actually making them.
-                Most of my projects start with an idea, turn into something
-                slightly broken, and eventually become something I can learn from.
-            </p>
+            <h2>Interests</h2>
+
+            <div class="interest-grid">
+
+                <article class="interest-card">
+
+                    <span class="interest-number">01</span>
+
+                    <h3>Game Development</h3>
+
+                    <p>
+                        Creating games and experimenting with
+                        gameplay, mechanics, and interactive systems.
+                    </p>
+
+                </article>
+
+
+                <article class="interest-card">
+
+                    <span class="interest-number">02</span>
+
+                    <h3>Programming</h3>
+
+                    <p>
+                        Learning how software works and building
+                        things with code.
+                    </p>
+
+                </article>
+
+
+                <article class="interest-card">
+
+                    <span class="interest-number">03</span>
+
+                    <h3>3D Modeling</h3>
+
+                    <p>
+                        Creating models and exploring how 3D assets
+                        can be used in games.
+                    </p>
+
+                </article>
+
+
+                <article class="interest-card">
+
+                    <span class="interest-number">04</span>
+
+                    <h3>Creative Projects</h3>
+
+                    <p>
+                        Turning random ideas into experiments,
+                        prototypes, and projects.
+                    </p>
+
+                </article>
+
+            </div>
+
         </section>
 
 
-        <section>
-            <h2>A Little Bit of Pancs</h2>
+        <!-- Current Goals -->
+        <section class="about-section">
 
-            <p>
-                Outside of projects, I spend a lot of time playing story-driven
-                games, experimenting with new ideas, and occasionally starting
-                something because I thought, "I wonder if I could actually make that."
-            </p>
+            <h2>Current Goals</h2>
+
+            <div class="goal-list">
+
+                <div class="goal">
+                    <span>01</span>
+                    <p>Improve my game development skills.</p>
+                </div>
+
+                <div class="goal">
+                    <span>02</span>
+                    <p>Learn more about web development.</p>
+                </div>
+
+                <div class="goal">
+                    <span>03</span>
+                    <p>Build more games and creative projects.</p>
+                </div>
+
+                <div class="goal">
+                    <span>04</span>
+                    <p>Keep expanding this portfolio.</p>
+                </div>
+
+            </div>
+
         </section>
 
+        <section class="pancs-lore">
 
-        <section>
-            <h2>Why "Pancs"?</h2>
+            <p class="eyebrow">SYSTEM FILE // IDENTITY</p>
+
+            <h2>Why Pancs?</h2>
 
             <p>
-                It doesn't really mean anything. I've used it for so long
-                that it became mine.
+                Pancs doesn't really mean anything.
             </p>
+
+            <p>
+                I started using the name a long time ago, and somehow
+                it stuck. It became the name I use for projects, games,
+                and things I create.
+            </p>
+
+            <p>
+                There isn't some complicated story behind it.
+                It's just a name that became mine.
+            </p>
+
         </section>
 
     </main>
@@ -101,6 +202,11 @@
     <footer>
         <p>© 2026 Pancs</p>
     </footer>
+
+    <div id="image-modal" class="image-modal">
+        <span class="close-modal">&times;</span>
+        <img id="modal-image" src="" alt="">
+    </div>
 
     <script src="script.js"></script>
 
