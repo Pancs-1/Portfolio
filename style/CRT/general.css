@@ -6,7 +6,6 @@
 
 html {
     scroll-behavior: smooth;
-    overscroll-behavior-y: none;
 }
 
 body {
@@ -92,7 +91,11 @@ nav a {
 }
 
 nav a::before {
-    content: "> ";
+    content: ">";
+    opacity: 0;
+}
+nav a::after {
+    content: "<";
     opacity: 0;
 }
 
@@ -101,6 +104,9 @@ nav a:hover {
 }
 
 nav a:hover::before {
+    opacity: 1;
+}
+nav a:hover::after {
     opacity: 1;
 }
 
