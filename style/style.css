@@ -1,0 +1,12 @@
+/* ====== CRT ======*/
+/* === General === */
+@import "CRT/colors.css";
+@import "CRT/general.css";
+/* === Pages === */
+@import "CRT/pages/home.css";
+@import "CRT/pages/projects.css";
+@import "CRT/pages/achievments.css";
+@import "CRT/pages/about.css";
+@import "CRT/pages/contact.css";
+
+@import "CRT/mobile.css";

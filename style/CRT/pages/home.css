@@ -1,0 +1,189 @@
+/* ===== Home ===== */
+
+.hero {
+    min-height: 65vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border-bottom: 3px solid var(--text);
+
+    padding-bottom: 50px;
+}
+.mascot {
+    width: 160px;
+    height: auto;
+
+    margin: 0 auto 25px;
+
+    image-rendering: pixelated;
+
+    transition: transform 0.2s ease;
+}
+
+.mascot:hover {
+    transform: translateY(-8px);
+}
+
+.hero-text {
+    max-width: 750px;
+}
+
+.eyebrow {
+    color: var(--accent);
+
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: clamp(64px, 12vw, 140px);
+
+    margin: 10px 0;
+
+    letter-spacing: 8px;
+
+    border: none;
+    padding: 0;
+}
+
+.hero-description {
+    max-width: 650px;
+    font-size: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin-top: 30px;
+}
+.hero-buttons .game-button {
+    min-width: 170px;
+    text-align: center;
+}
+.cursor {
+    color: var(--accent);
+
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 15px;
+
+    border-top: 2px solid var(--text);
+    border-bottom: 2px solid var(--text);
+
+    color: var(--accent);
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* ===== Home Sections ===== */
+
+.home-section {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.home-section h2 {
+    display: inline-block;
+
+    border-bottom: 3px solid var(--accent);
+
+    padding-bottom: 5px;
+}
+/* ===== Quest Card ===== */
+
+.quest-card {
+    display: flex;
+    align-items: center;
+
+    min-height: 180px;
+}
+
+.quest-status {
+    color: var(--accent);
+
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* ===== Featured Projects ===== */
+
+.featured-projects {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.featured-projects article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.featured-projects article .game-button {
+    margin-top: auto;
+}
+/* ===== Home Menu ===== */
+
+.home-menu {
+    display: grid;
+
+    gap: 10px;
+}
+
+.home-menu a {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 18px 20px;
+
+    border: 3px solid var(--text);
+
+    background-color: var(--panel);
+
+    color: var(--text);
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-weight: bold;
+
+    box-shadow: 6px 6px 0 var(--shadow);
+
+    transition: transform 0.1s ease;
+}
+
+.home-menu a span {
+    color: var(--accent);
+}
+
+.home-menu a:hover {
+    color: var(--accent);
+
+    transform: translate(4px, 4px);
+
+    box-shadow: 2px 2px 0 var(--shadow);
+}

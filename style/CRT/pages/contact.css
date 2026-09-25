@@ -1,0 +1,40 @@
+
+.contact-terminal {
+    max-width: 700px;
+    margin: 0 auto;
+
+    padding: 40px;
+
+    border: 3px solid var(--text);
+
+    box-shadow: 8px 8px 0 var(--shadow);
+
+    text-align: center;
+}
+
+.terminal-status {
+    color: var(--accent);
+
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 35px;
+}
+
+.contact-options {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.contact-options .game-button {
+    min-width: 125px;
+    text-align: center;
+}

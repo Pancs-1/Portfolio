@@ -1,0 +1,157 @@
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    nav a {
+        flex: 1 1 40%;
+        text-align: center;
+        min-width: 120px;
+    }
+
+    main {
+        padding: 40px 20px;
+        margin: 15px 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    article {
+        padding: 20px;
+        box-shadow: 5px 5px 0 var(--shadow);
+    }
+    .hero {
+        min-height: 55vh;
+    }
+
+    .hero h1 {
+        letter-spacing: 4px;
+    }
+
+    .hero-description {
+        font-size: 17px;
+    }
+
+    .featured-projects {
+        grid-template-columns: 1fr;
+    }
+
+    .home-menu a {
+        padding: 15px;
+    }
+
+    .project-list > section {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card,
+    .project-card:nth-last-of-type(1):nth-of-type(odd) {
+        grid-column: auto;
+        width: 100%;
+        justify-self: stretch;
+    }
+
+    .project-list article img {
+        height: 180px;
+    }
+
+    .featured-projects {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-terminal {
+        padding: 25px 15px;
+    }
+
+    .contact-options {
+        flex-direction: column;
+    }
+
+    .contact-options .game-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .profile-card {
+        grid-template-columns: 1fr;
+
+        padding: 25px 15px;
+
+        gap: 15px;
+
+        text-align: center;
+    }
+
+    .profile-image {
+        min-height: 180px;
+        
+    }
+
+    .profile-image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .profile-info h2 {
+        font-size: 30px;
+    }
+
+    .interest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .interest-card {
+        padding: 25px 20px;
+    }
+
+    .goal {
+        padding: 15px;
+    }
+
+        .achievement-progress {
+        padding: 20px 15px;
+    }
+
+    .achievement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .achievement-card {
+        padding: 25px 20px;
+
+        gap: 18px;
+    }
+
+    .achievement-icon {
+        width: 45px;
+        height: 45px;
+
+        font-size: 22px;
+    }
+
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-card img {
+        height: 200px;
+    }
+
+    .activity-card {
+        padding: 20px;
+    }
+}
